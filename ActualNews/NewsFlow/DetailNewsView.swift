@@ -13,7 +13,7 @@ struct DetailNewsView: View {
     
     var body: some View {
         WebView(type: .public, url: article.url)
-            
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
